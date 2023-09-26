@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AdmitKard</title>
+    <script>
+      //get the plugin to work without loading jQuery
+      window.jQuery = window.$ = function () {
+        return {
+          on: function () {},
+        };
+      };
+      window.$.fn = {};
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/10.0.2/js/intlTelInput.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/10.0.2/js/utils.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/9.0.6/css/intlTelInput.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://intl-tel-input.com/node_modules/intl-tel-input/build/css/demo.css?3"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form
+        id="contact"
+        onsubmit="alert('OTP SENT!!!'); window.location.href = 'otp.html';"
+      >
+        <br />
+        <img
+          src="https://res.cloudinary.com/dgusazphc/image/upload/v1695706096/AK_logo_fwt9es.png"
+          class="logo"
+          alt=""
+        />
+        <br /><br /><br />
+        <h3>Welcome Back</h3>
+        <h4>Please sign in to your account</h4>
+        <br />
+        <p style="text-align: left">Enter Contact Number:</p>
+        <fieldset>
+          -->
+          <div class="input-item">
+            <img
+              src="https://res.cloudinary.com/dgusazphc/image/upload/v1695706444/image_1_bbgkmv.svg"
+              alt=""
+              class="india"
+            />
+            <span>+91</span>
+            <img
+              src="https://res.cloudinary.com/dgusazphc/image/upload/v1695707904/Polygon_1_qao6gy.svg"
+              alt=""
+            />
+            <input type="text" placeholder="7896781234" />
+          </div>
+          <br />
+          <br />
+        </fieldset>
+        <p style="text-align: center">
+          We will send you a one time SMS message.
+        </p>
+        <p style="text-align: center">Charges may apply.</p>
+        <br /><br /><br /><br /><br />
+        <fieldset>
+          <button type="submit" class="btn btn-round">Sign In with OTP</button>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+
+  <script src="https://codepen.io/jackocnr/pen/ggzEjv.js"></script>
+  <script src="./js/script.js"></script>
+</html>
