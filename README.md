@@ -1,8 +1,8 @@
-Problem Statement
+### Problem Statement
 You have to design 2 screens in which user can enter mobile number and we can verify
-Screen-1: Mobile Number Screen
-Screen-2: OTP Verification Screen
-Screen-3: Success Screen (Optional, You can show the success message on screen-2 itself)
+### Screen-1: Mobile Number Screen
+### Screen-2: OTP Verification Screen
+### Screen-3: Success Screen (Optional, You can show the success message on screen-2 itself)
 Here is the workflow of whole process
 • Screen 1: Enter Mobile Number (and change country if required)
 • Click on “Send OTP”
@@ -17,5 +17,5 @@ snackbar(on screen notification))
 some free service.[Totally Optional]
 Sample Design:
 Design:
-https://www.figma.com/file/NW3SHq44yjrP0m54WL8Nwo/Login_dev?node-id=0%3A1
+### https://www.figma.com/file/NW3SHq44yjrP0m54WL8Nwo/Login_dev?node-id=0%3A1
 Try to match the design as close as possible
